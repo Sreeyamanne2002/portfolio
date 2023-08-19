@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sreeya's portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">sreeya's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Sreeya</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"  onclick="window.open('https://drive.google.com/drive/u/0/my-drive')">Download Resume</button>
+                    
+                    <button class="btn" onclick="window.open('https://github.com/Sreeyamanne2002')">Visit Github</button>
+                    <button class="btn" onclick="window.open('https://www.linkedin.com/in/sreeya-manne-599a6a238/')">Linkedin</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="photo.png" alt="">
+
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>My Skills and Activities</h1>
+            <div class="box">
+
+                <div class="vertical">
+                    <div class="vertical-title">
+                        Skills
+                    </div>
+                    <div class="vertical-desc">
+                        c++,
+                        python,
+                        html,
+                        css
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <div class="vertical-title">
+                        Projects
+                    </div>
+                    <div class="vertical-desc">
+                        1.Detection of fake online reviews using semi-supervised and supervised learning
+                        <br>
+                        2.Bank Customer churn prediction
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        Certifications
+                    </div>
+                    <div class="vertical-desc">
+                        1.Machine learning Foundation Micro-Credential
+                        <br>
+                        2.TCS iON Career Edge-Young Professional
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Sreeya's portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-rights">
+            Copyright&#169;sreeyasporfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['web Developer', 'Graphic Designer', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
